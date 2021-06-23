@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--Estilo customizado css-->
+    <link href="css/stylogin.css" rel="stylesheet" type="text/css">
+
+ 
+  </head>
+
+<body class="text-center"> 
+
+  <div class="form-signin">
+    <form action="login.php" method="POST">
+
+      <img class="mb-4" src="img/entrar.png" alt="" width="72" height="57">
+
+        <h1 class="h3 mb-3 fw-normal">Conecte-se</h1>
+
+        <div class="form-floating">
+          <input type="text" class="form-control" placeholder="Usuario" name="login" id="login">
+          <label for="login">Login</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha">
+          <label for="senha">Senha</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+          <input type="checkbox" value="lembrar-me"> Lembrar-me
+          </label>
+        </div>
+
+    <button class="w-100 btn btn-lg btn-dark" type="submit" name="btnEntrar" id="btnEntrar">Entrar</button>
+
+
+    </form>
+  </div>
+</body>
+
+</html>
