@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 <?php
 /*1- Fazer a chamada do arquivo com infromações da conexao*/
 
@@ -15,7 +15,8 @@ $resultado=mysqli_query($con,$comandoSql);
 
 /*4- Pegando os dados da consulta criada e exibindo*/
 ?>
-<table border align="center">
+
+<table class="table table-dark table-hover" border align="center">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -29,6 +30,7 @@ $resultado=mysqli_query($con,$comandoSql);
 						<th>Alterar</th>
 					</th>
 				</thead>
+
 <?php
 while($dados=mysqli_fetch_assoc($resultado)){
 	

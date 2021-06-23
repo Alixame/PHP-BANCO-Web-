@@ -30,7 +30,7 @@
 
   }
 
-   echo "<br> <a href='listar_produto.php'>Listar Produto </a>";
+   echo "<br> <a href='lista_produto.php'>Listar Produto </a>";
 
   
 ?>

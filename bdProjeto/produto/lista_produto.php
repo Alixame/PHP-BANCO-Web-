@@ -1,13 +1,10 @@
-<link rel="stylesheet" type="text/css" href="../bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 <style>
 		.jumbotron{ width: 700px;
 					margin-left: auto;
 					margin-right:auto;
 					text-align:center;
-					margin-top: 20px;
-					background-color: #DCDCDC; }
-		.h2{text-align:center;}
-		.input{text-align:center;}
+					}
 		</style>	
 
 <?php
@@ -29,8 +26,9 @@ $resultado=mysqli_query($con,$comandoSql);
 /*4- Pegando os dados da consulta criada e exibindo*/
 ?>
 <div class="jumbotron">
-	<h2> Lista dos Produtos </h2>
-<table class="table" border align="center">
+	
+<table class="table table-dark table-hover" border align="center">
+	
 				<thead>
 					<tr>
 						<th>Id</th>

@@ -5,7 +5,7 @@
 
   /*2- pegando os dados vindos do formulario e armazenando em variaveis */
   	
-  	$id=$_POST["txtId"];
+  $id=$_POST["txtId"];
 	$nome=$_POST["txtNome"];
 	$rg=$_POST["txtRg"];
 	$cpf=$_POST["txtCpf"];

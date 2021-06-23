@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Alteração de Produto</title>
 
-<link rel="stylesheet" type="text/css" href="../bootstrap.css">	
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 
 		<style>
 		.jumbotron{ width: 500px;
@@ -51,6 +51,7 @@
   <!-- 6 - preenchendo o formulario com dados da consulta -->
     
    <div class="jumbotron">
+   	<div class="h-100 p-5 text-white bg-dark rounded-3">
     <h2> Alterar Produto </h2>
 	<form action="altera_produto.php" method="POST">
 
@@ -82,10 +83,10 @@
 	 <br>
      <input class="btn btn-primary btn-lg w-100" type="submit" value="Alterar">
    </form>
- 
- <br> 
- <a href="lista_produto.php"> Listar Produto </a>
- <br>
+    <br> 
+ 		<a href="lista_produto.php"> Listar Produto </a>
+ 		<br>
+ </div>
 </div>
   
 </body>
