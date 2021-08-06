@@ -2,7 +2,7 @@
 <?php
 /*1- Fazer a chamada do arquivo com infromações da conexao*/
 
-require "../conexao.php";
+require "conexao.php";
 
 /*2- Criando o comando sql para consulta de registros*/
 
@@ -18,7 +18,7 @@ $resultado=mysqli_query($con,$comandoSql);
 <body class="container bg-dark">
 	<?php
 
-			include "../principal.php";
+			include "principal.php";
 
 		?>
 <div class="text-light">
@@ -60,9 +60,9 @@ while($dados=mysqli_fetch_assoc($resultado)){
 					<td>$numero</td>
 					<td>$endereco</td>
 					<br>
-					<td><center><a href='exclui_cliente.php?id=$id'> <img src='../img/excluir.png' width='25'> </a> </center></td>
+					<td><center><a href='exclui_cliente.php?id=$id'> <img src='img/excluir.png' width='25'> </a> </center></td>
 					<br>
-					<td><center><a href='frm_altera_cliente.php?id=$id'> <img src='../img/alterar.png' width='25'> </a></center></td>
+					<td><center><a href='frm_altera_cliente.php?id=$id'> <img src='img/alterar.png' width='25'> </a></center></td>
 					<br>
 				</tr>
 			</tbody>";
